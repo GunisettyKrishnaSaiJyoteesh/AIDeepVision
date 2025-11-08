@@ -65,15 +65,26 @@ AIDeepVision/
 
 ---
 
-## 🧭 Student Instructions
+## 🧭 Student Instruction
+
+Follow the steps below carefully. Each student must work **individually** and submit their own repository.
+
+---
 
 ### 🪄 Step 1: Fork This Repository
-Click the **“Fork”** button in the top-right corner of this page to create your personal copy.
+1. Go to the top-right corner of this page.
+2. Click **"Fork"** to create your own copy of this repository under your GitHub account.
+
+---
 
 ### 🪄 Step 2: Clone Your Fork
+Use the following commands in your terminal or Git Bash:
+
 ```bash
-git clone https://github.com/<your-username>/AIDeepVision.git
+# Replace <your-username> with your GitHub username
+git clone https://github.com/<your-username>/AI-DeepVision-Mentor.git
 cd AI-DeepVision-Mentor
+
 
 
 
