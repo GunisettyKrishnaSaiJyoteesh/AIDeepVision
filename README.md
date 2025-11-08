@@ -36,21 +36,32 @@ This project aims to enhance **public safety**, **crowd management**, and **smar
 
 ---
 ## 📦 Folder Structure
+```bash
 AIDeepVision/
-├── src/
-│ ├── preprocessing/ # Dataset cleaning and normalization
-│ ├── model/ # CSRNet / MCNN model architecture
-│ ├── integration/ # Real-time video and frame extraction
-│ ├── dashboard/ # Streamlit / Flask web dashboard
-│ └── alerts/ # Twilio / SMTP alert system
 │
-├── notebooks/ # Jupyter notebooks for experiments
-├── data/ # Sample or dataset link
-├── results/ # Output heatmaps and performance graphs
-├── submissions/ # Students' final submissions (via PR)
-├── requirements.txt # Project dependencies
-└── README.md # This file
-
+├── data/                         # Dataset folder or sample dataset links
+│
+├── notebooks/                    # Jupyter notebooks for experiments and analysis
+│
+├── src/                          # All source code files
+│   ├── preprocessing/             # Data preprocessing and normalization scripts
+│   ├── model/                     # CSRNet / MCNN model implementation
+│   ├── integration/               # Real-time video stream + OpenCV processing
+│   ├── dashboard/                 # Streamlit / Flask dashboard interface
+│   └── alerts/                    # Twilio / SMTP alert mechanism
+│
+├── results/                      # Output heatmaps, model performance graphs, screenshots
+│
+├── submissions/                  # Each student's final submission (name-wise folder)
+│   ├── StudentName1/
+│   ├── StudentName2/
+│   └── ...
+│
+├── docker/                       # (Optional) Dockerfile and deployment setup
+│
+├── requirements.txt              # Python dependencies list
+│
+└── README.md                     # Project description and setup guide
 
 ---
 
